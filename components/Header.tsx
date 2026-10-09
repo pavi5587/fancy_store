@@ -19,9 +19,9 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-ivory/95 backdrop-blur border-b border-gold-200">
-      <div className="hidden md:block bg-ink text-ivory text-center text-xs tracking-wideish py-2">
+      {/* <div className="hidden md:block bg-ink text-ivory text-center text-xs tracking-wideish py-2">
         Free shipping on orders above ₹599 &nbsp;·&nbsp; Use FESTIVE20 for 20% off
-      </div>
+      </div> */}
 
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
