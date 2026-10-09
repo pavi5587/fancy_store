@@ -157,10 +157,10 @@ export default function ProductDetailClient({ params }: { params: { id: string }
               aria-label="Toggle wishlist"
               className="w-12 rounded-full border border-gold-200 flex items-center justify-center focus-ring"
             >
-              <svg width="18" height="18" viewBox="0 0 24 24" fill={wishlisted ? "#5C2338" : "none"}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill={wishlisted ? "#784682" : "none"}>
                 <path
                   d="M12 20s-7-4.35-9.5-8.5C.8 8.1 2.4 5 5.6 5c1.9 0 3.3 1 4.4 2.5C11.1 6 12.5 5 14.4 5c3.2 0 4.8 3.1 3.1 6.5C19 15.65 12 20 12 20z"
-                  stroke="#5C2338"
+                  stroke="#784682"
                   strokeWidth="1.5"
                 />
               </svg>

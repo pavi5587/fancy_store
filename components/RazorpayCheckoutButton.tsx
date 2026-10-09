@@ -61,7 +61,7 @@ export default function RazorpayCheckoutButton({
       description: "Order payment",
       image: "/logo.png",
       prefill: { name, email, contact },
-      theme: { color: "#5C2338" },
+      theme: { color: "#784682" },
       handler: function (response: { razorpay_payment_id: string }) {
         onSuccess(response.razorpay_payment_id);
       },

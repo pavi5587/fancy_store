@@ -31,7 +31,7 @@ export default function Header() {
             onClick={() => setMenuOpen((v) => !v)}
           >
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <path d="M3 6h18M3 12h18M3 18h18" stroke="#2B1320" strokeWidth="1.6" strokeLinecap="round" />
+              <path d="M3 6h18M3 12h18M3 18h18" stroke="#52125F" strokeWidth="1.6" strokeLinecap="round" />
             </svg>
           </button>
 
@@ -75,15 +75,15 @@ export default function Header() {
           <div className="flex items-center gap-4 shrink-0">
             <Link href="/search" className="md:hidden focus-ring rounded" aria-label="Search">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                <circle cx="11" cy="11" r="7" stroke="#2B1320" strokeWidth="1.6" />
-                <path d="M21 21l-4-4" stroke="#2B1320" strokeWidth="1.6" strokeLinecap="round" />
+                <circle cx="11" cy="11" r="7" stroke="#52125F" strokeWidth="1.6" />
+                <path d="M21 21l-4-4" stroke="#52125F" strokeWidth="1.6" strokeLinecap="round" />
               </svg>
             </Link>
             <Link href="/wishlist" className="relative focus-ring rounded" aria-label="Wishlist">
               <svg width="21" height="21" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M12 20s-7-4.35-9.5-8.5C.8 8.1 2.4 5 5.6 5c1.9 0 3.3 1 4.4 2.5C11.1 6 12.5 5 14.4 5c3.2 0 4.8 3.1 3.1 6.5C19 15.65 12 20 12 20z"
-                  stroke="#2B1320"
+                  stroke="#52125F"
                   strokeWidth="1.5"
                   fill="none"
                 />
@@ -96,14 +96,14 @@ export default function Header() {
             </Link>
             <Link href="/account" className="hidden sm:inline-flex focus-ring rounded" aria-label="Account">
               <svg width="21" height="21" viewBox="0 0 24 24" fill="none">
-                <circle cx="12" cy="8" r="3.5" stroke="#2B1320" strokeWidth="1.5" />
-                <path d="M4.5 20c1.5-3.5 5-5 7.5-5s6 1.5 7.5 5" stroke="#2B1320" strokeWidth="1.5" strokeLinecap="round" />
+                <circle cx="12" cy="8" r="3.5" stroke="#52125F" strokeWidth="1.5" />
+                <path d="M4.5 20c1.5-3.5 5-5 7.5-5s6 1.5 7.5 5" stroke="#52125F" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
             </Link>
             <Link href="/cart" className="relative focus-ring rounded" aria-label="Cart">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                <path d="M6 8h12l-1.2 10.2a2 2 0 01-2 1.8H9.2a2 2 0 01-2-1.8L6 8z" stroke="#2B1320" strokeWidth="1.5" />
-                <path d="M9 8V6a3 3 0 016 0v2" stroke="#2B1320" strokeWidth="1.5" strokeLinecap="round" />
+                <path d="M6 8h12l-1.2 10.2a2 2 0 01-2 1.8H9.2a2 2 0 01-2-1.8L6 8z" stroke="#52125F" strokeWidth="1.5" />
+                <path d="M9 8V6a3 3 0 016 0v2" stroke="#52125F" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
               {cartCount > 0 && (
                 <span className="absolute -top-2 -right-2 bg-plum-600 text-ivory text-[10px] rounded-full w-4 h-4 flex items-center justify-center">

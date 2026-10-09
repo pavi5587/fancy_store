@@ -7,13 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ink: "#2B1320",      // deep plum-black, primary text/bg
+        ink: "#52125F",      // brand purple (sampled from banner), primary text/bg
         plum: {
-          50: "#F7EEF1",
-          100: "#EBD8DF",
-          400: "#8C4A63",
-          600: "#5C2338",
-          900: "#2B1320",
+          50: "#F3EEF4",
+          100: "#E5DBE7",
+          400: "#8B6094",
+          600: "#784682",
+          900: "#2D0A34",
         },
         gold: {
           200: "#EAD9BE",
